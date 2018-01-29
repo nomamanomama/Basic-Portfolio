@@ -1,13 +1,25 @@
+/*
+`style.css` contains all classes, style and id definitions used in the Basic-Portfolio project.
+There are 3 main pages. Content is cascading and genrally organized as follows:
+    *Globally shared
+    *`index.html` styles
+    *`portfolio.html` styles
+    *`contact.html` styles
+*/
+
+
+/* Global styles*/
+
 body {
-    /* background-image: "./assets/images/linen.png";
-    background-repeat: repeat; */
+    background-image: url("../../assets/images/cardboard_flat.png");
+    background-repeat: repeat;
     width: 100%;
-    background-color: #dddddd;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777777;
     font-size: 18px;
     line-height: 150%;
     border-style: solid;
+    border-color: #dddddd;
 }
 
 header {
@@ -18,7 +30,7 @@ header {
     padding-left: 100px;
     padding-right: 100px;
     border-style: solid;
-    border-color: #666666;
+    border-color: #cccccc;
     border-bottom-width: 2px;
 }
 
@@ -101,6 +113,9 @@ section {
     clear: both;
 }
 
+
+/* About Me box and content */
+
 #aboutBox {
     position: absolute;
     left: 0px;
@@ -116,11 +131,8 @@ section {
     margin-right: 20px;
 }
 
-.float-pic-right {
-    margin-top: 0px;
-    float: right;
-    margin-right: 20px;
-}
+
+/* Connect with Me side bar and links */
 
 #connectBox {
     position: absolute;
@@ -161,33 +173,35 @@ section {
     margin-right: 0px;
 }
 
+
+/*Portfolio  box and links*/
+
 #portfolioBox {
     position: absolute;
     left: 0px;
     top: 50px;
     width: 590px;
-    height: 1200px;
+    height: 1000px;
     padding: 30px;
 }
 
 .projectBox {
-    width: 240px;
-    height: 240px;
-    /* margin-bottom: 20px; */
+    width: 260px;
+    height: 200px;
 }
 
 .projectPic {
     position: absolute;
     top: 0px;
     left: 0px;
-    width: 240px;
+    width: 260px;
 }
 
 .projectLabel {
     position: absolute;
-    top: 170px;
+    top: 130px;
     left: 0px;
-    width: 240px;
+    width: 260px;
     color: #ffffff;
     background-color: #4aaaa5;
     z-index: 1;
@@ -197,38 +211,41 @@ section {
 
 #project1 {
     position: absolute;
-    top: 100px;
+    top: 110px;
     left: 20px;
-    margin: 20px;
+    margin: 25px;
 }
 
 #project2 {
     position: absolute;
-    top: 100px;
-    left: 350px;
-    margin: 20px;
+    top: 110px;
+    left: 320px;
+    margin: 25px;
 }
 
 #project3 {
     position: absolute;
-    top: 450px;
+    top: 350px;
     left: 20px;
-    margin: 20px;
+    margin: 25px;
 }
 
 #project4 {
     position: absolute;
-    top: 450px;
-    left: 350px;
-    margin: 20px;
+    top: 350px;
+    left: 320px;
+    margin: 25px;
 }
 
 #project5 {
     position: absolute;
-    top: 800px;
+    top: 595px;
     left: 20px;
-    margin: 20px;
+    margin: 25px;
 }
+
+
+/*Contact Me box and form input*/
 
 #contactBox {
     position: absolute;
@@ -261,25 +278,38 @@ section {
 }
 
 #name {
-    width: 585px;
+    width: 575px;
     height: 30px;
+    padding-left: 10px;
     font-size: 14px;
     margin-bottom: 20px;
+    color: #333333;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 #email {
-    width: 585px;
+    width: 575px;
     height: 30px;
+    padding-left: 10px;
     font-size: 14px;
     margin-bottom: 20px;
+    color: #333333;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 #message {
-    width: 585px;
+    width: 565px;
     height: 150px;
     font-size: 14px;
+    padding: 10px;
     margin-bottom: 15px;
+    text-align: left;
+    color: #333333;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
+
+
+/*global footer*/
 
 footer {
     width: 100%;
