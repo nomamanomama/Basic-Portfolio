@@ -1,0 +1,298 @@
+body {
+    /* background-image: "./assets/images/linen.png";
+    background-repeat: repeat; */
+    width: 100%;
+    background-color: #dddddd;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    font-size: 18px;
+    line-height: 150%;
+    border-style: solid;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background-color: #ffffff;
+    padding-left: 100px;
+    padding-right: 100px;
+    border-style: solid;
+    border-color: #666666;
+    border-bottom-width: 2px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-weight: bold;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 32px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    padding: 40px;
+    text-align: center;
+    float: left;
+}
+
+h2 {
+    font-size: 28px;
+    color: #4aaaa5;
+}
+
+h3 {
+    font-size: 22px;
+    color: #4aaaa5;
+}
+
+h4 {
+    font-size: 18px;
+    color: #ffffff;
+    padding: 0px;
+    background-color: #4aaaa5;
+    text-align: center;
+}
+
+nav {
+    position: absolute;
+    top: 70px;
+    left: 100px;
+    text-align: right;
+    width: 960px;
+    float: right;
+    font-size: 20px;
+}
+
+a {
+    color: #777777;
+    text-decoration-line: none;
+}
+
+section {
+    clear: both;
+    background-color: #ffffff;
+    border-color: #666666;
+    border-width: 1px;
+}
+
+.container {
+    width: 960px;
+    height: 200px;
+    position: relative;
+    top: 100px;
+    margin-left: 100px;
+    /* overflow: auto; */
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.clear {
+    clear: both;
+}
+
+#aboutBox {
+    position: absolute;
+    left: 0px;
+    top: 50px;
+    width: 590px;
+    padding: 30px;
+    overflow: auto;
+}
+
+.float-pic-left {
+    margin-top: 0px;
+    float: left;
+    margin-right: 20px;
+}
+
+.float-pic-right {
+    margin-top: 0px;
+    float: right;
+    margin-right: 20px;
+}
+
+#connectBox {
+    position: absolute;
+    top: 50px;
+    right: 0px;
+    width: 230px;
+    height: 150px;
+    text-align: center;
+    line-height: 100%;
+    padding: 20px;
+}
+
+#link-icons {
+    width: 230px;
+    margin-top: 15px;
+    position: absolute;
+    top: 90px;
+    text-align: center;
+}
+
+#left-icon {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    margin-left: 0px;
+}
+
+#middle-icon {
+    position: absolute;
+    top: 0px;
+    left: 81px;
+}
+
+#right-icon {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    margin-right: 0px;
+}
+
+#portfolioBox {
+    position: absolute;
+    left: 0px;
+    top: 50px;
+    width: 590px;
+    height: 1200px;
+    padding: 30px;
+}
+
+.projectBox {
+    width: 240px;
+    height: 240px;
+    /* margin-bottom: 20px; */
+}
+
+.projectPic {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 240px;
+}
+
+.projectLabel {
+    position: absolute;
+    top: 170px;
+    left: 0px;
+    width: 240px;
+    color: #ffffff;
+    background-color: #4aaaa5;
+    z-index: 1;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#project1 {
+    position: absolute;
+    top: 100px;
+    left: 20px;
+    margin: 20px;
+}
+
+#project2 {
+    position: absolute;
+    top: 100px;
+    left: 350px;
+    margin: 20px;
+}
+
+#project3 {
+    position: absolute;
+    top: 450px;
+    left: 20px;
+    margin: 20px;
+}
+
+#project4 {
+    position: absolute;
+    top: 450px;
+    left: 350px;
+    margin: 20px;
+}
+
+#project5 {
+    position: absolute;
+    top: 800px;
+    left: 20px;
+    margin: 20px;
+}
+
+#contactBox {
+    position: absolute;
+    left: 0px;
+    top: 50px;
+    width: 590px;
+    height: 500px;
+    padding: 30px;
+}
+
+#contactForm {
+    width: 550px;
+    height: 300px;
+}
+
+#contactSubmit {
+    margin-top: 20px;
+    background-color: #4aaaa5;
+    color: white;
+    width: 100px;
+    height: 38px;
+    font-size: 18px;
+}
+
+.formLabel {
+    font-size: 18px;
+    text-align: left;
+    padding-bottom: 5px;
+    padding-top: 20px;
+}
+
+#name {
+    width: 585px;
+    height: 30px;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+#email {
+    width: 585px;
+    height: 30px;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+#message {
+    width: 585px;
+    height: 150px;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+footer {
+    width: 100%;
+    clear: both;
+    text-align: center;
+    font-size: 12px;
+    position: fixed;
+    bottom: 0px;
+    background-color: #666666;
+    padding: 30px;
+    color: #ffffff;
+    border-style: solid;
+    border-top-color: #4aaaa5;
+    border-top-width: 10px;
+    z-index: 10;
+}
