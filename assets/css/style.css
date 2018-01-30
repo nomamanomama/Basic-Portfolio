@@ -23,8 +23,9 @@ body {
 }
 
 header {
-    position: absolute;
+    position: fixed;
     top: 0;
+    left: 0;
     width: 100%;
     background-color: #ffffff;
     padding-left: 100px;
@@ -43,7 +44,7 @@ h4 {
     padding: 20px;
 }
 
-h1 {
+header>h1 {
     font-size: 32px;
     background-color: #4aaaa5;
     color: #ffffff;
@@ -83,6 +84,10 @@ nav {
 a {
     color: #777777;
     text-decoration-line: none;
+}
+
+h1 a{
+    color:#ffffff;
 }
 
 section {
@@ -262,7 +267,7 @@ section {
 }
 
 #contactSubmit {
-    margin-top: 20px;
+    margin-top: 5px;
     background-color: #4aaaa5;
     color: white;
     width: 100px;
