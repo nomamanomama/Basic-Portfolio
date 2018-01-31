@@ -33,6 +33,7 @@ header {
     border-style: solid;
     border-color: #cccccc;
     border-bottom-width: 2px;
+    z-index: 100;
 }
 
 h1,
@@ -72,7 +73,7 @@ h4 {
 }
 
 nav {
-    position: absolute;
+    position: fixed;
     top: 70px;
     left: 100px;
     text-align: right;
