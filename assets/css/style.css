@@ -87,8 +87,8 @@ a {
     text-decoration-line: none;
 }
 
-h1 a{
-    color:#ffffff;
+h1 a {
+    color: #ffffff;
 }
 
 section {
@@ -247,6 +247,13 @@ section {
     position: absolute;
     top: 595px;
     left: 20px;
+    margin: 25px;
+}
+
+#project6 {
+    position: absolute;
+    top: 595px;
+    left: 320px;
     margin: 25px;
 }
 
