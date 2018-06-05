@@ -281,6 +281,20 @@ section {
     margin: 25px;
 }
 
+#project11 {
+    position: absolute;
+    top: 1300px;
+    left: 20px;
+    margin: 25px;
+}
+
+#project12 {
+    position: absolute;
+    top: 1300px;
+    left: 320px;
+    margin: 25px;
+}
+
 /*Contact Me box and form input*/
 
 #contactBox {
